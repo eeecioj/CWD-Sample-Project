@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Compiled and minified CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+     <!-- Style CSS -->
+     <link rel="stylesheet" href="style.css">
+     <!-- Material Icons -->
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
+     <style>
+        .box {
+        padding: 5px;
+        text-align: center;
+        background: teal;
+        font-family: sans-serif;
+        font: white;
+     } 
+     </style> 
+     <title>Cards</title>
+</head>
+
+<body class="grey darken-3">
+
+    <!-- Navbar -->
+    <nav class="black">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="index.html" class="brand-logo" style="font-family:Helvatica white">
+                    Boutique Hotel
+                </a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down" style="font-family:Helvatica">
+                    <li><a href="accomodation.html"><strong>SUITES</strong></a></li>
+                    <li><a href="dining.html"><strong>CUISINE</strong></a></li>
+                    <li><a href="more.html"><strong>ACTIVITIES</strong></a></li>
+                    <li><a href="more.html"><strong>MORE</strong></a></li>
+                </ul>
+            </div>
+        </div>
+     </nav>
+      
+     <!-- Slider -->
+              <section>
+                <br>
+                <div class="row">
+                  <div class="col s12 m8">
+                    <div class="slider">
+                      <ul class="slides">
+                        <li>
+                          <img src="img/lobby.jpg" alt="">
+                        </li>
+                        <li>
+                          <img src="img/resto.jpg" alt="">
+                        </li>
+                        <li>
+                          <img src="img/tub.jpg" alt="">
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col s12 m4 center-align">
+                    <br><br><br><br>
+                    <h2 style="color: white; font-family:Helvatica">
+                        <strong>A hotel in the heart of everything</strong>
+                    </h2>
+                    <br>
+                    <p style="color: white; font-family:Helvetica">
+                        <em>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam soluta porro impedit. Voluptate cum obcaecati reiciendis! 
+                        </em>
+                    </p>
+                    <br><br>
+                    <a class="waves-effect waves-light btn-large black">
+                        <h5 style="font-family:Helvatica">BOOK NOW</h5>
+                    </a>
+                  </div>
+                </div>
+              </section>
+
+        <!-- Tabs in Cards -->
+        <section class="black">
+            <br><br>
+            <div class="container white-text center-align">
+                <h3 class="white-text" style="color: white; font-family:Helvetica">
+                    SUITES
+                </h3>
+                <br>
+                <div class="card">
+                    <div class="card-tabs">
+                      <ul class="tabs tabs-fixed-width black">
+                        <li class="tab">
+                            <a href="#room1" class="white-text font-family:Helvetica">
+                                STANDARD 
+                            </a>
+                        </li>
+                        <li class="tab">
+                            <a href="#room2" class="white-text font-family:Helvetica">
+                                DELUXE
+                            </a>
+                        </li>
+                        <li class="tab">
+                            <a href="#room3" class="white-text font-family:Helvetica">
+                                SIGNATURE
+                            </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="card-content grey lighten-4">
+                      <div id="room1">
+                        <div class="card-image z-depth-4 small">
+                            <img src="img/standard.jpg" alt="" class="activator">
+                            <span class="card-title">
+                                <a class="waves-effect waves-light btn-large black">
+                                    <h5 style="font-family:Helvatica">VIEW ROOM</h5>
+                                </a>
+                            </span>
+                        </div>
+                      </div>
+                      <div id="room2">
+                        <div class="card-image z-depth-4 small">
+                            <img src="img/deluxe.jpg" alt="" class="activator">
+                            <span class="card-title">
+                                <a class="waves-effect waves-light btn-large black">
+                                    <h5 style="font-family:Helvatica">VIEW ROOM</h5>
+                                </a>
+                            </span>
+                        </div>
+                      </div>
+                      <div id="room3">
+                        <div class="card-image z-depth-4 small">
+                            <img src="img/signature.jpg" alt="" class="activator">
+                            <span class="card-title">
+                                <a class="waves-effect waves-light btn-large black">
+                                    <h5 style="font-family:Helvatica">VIEW ROOM</h5>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br><br><br>
+        </section>
+        
+
+        <!-- Image Card -->
+        <section class="section grey darken-3">
+            <div class="container">
+              <br>
+              <h3 class="white-text" style="color: white; font-family:Helvetica">
+                CUISINE
+              </h3>
+              <br>
+              <div class="row">
+                <div class="col s12 m4">
+                  <div class="card">
+                    <div class="card-image z-depth-4 waves-effect waves-block waves-light">
+                      <img src="img/breakfast.jpg" alt="" class="activator">
+                      <span class="card-title activator white-text"
+                            style="color: white; font-family:Helvetica">
+                            BREAKFAST
+                      </span>
+                    </div>
+                    <div class="card-content black">
+                        <span class="card-title activator white-text">MENU
+                            <i class="material-icons right white-text">arrow_upward</i>
+                        </span>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">MENU<i class="material-icons right">close</i></span>
+                        <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                    </div>
+                  </div>
+                </div>
+              <div class="row">
+                <div class="col s12 m4">
+                  <div class="card">
+                    <div class="card-image z-depth-4 waves-effect waves-block waves-light">
+                      <img src="img/tea.jpg" alt="" class="activator">
+                      <span class="card-title activator white-text"
+                            style="color: white; font-family:Helvetica">
+                            AFTERNOON TEA
+                      </span>
+                    </div>
+                    <div class="card-content black">
+                        <span class="card-title activator white-text">MENU
+                            <i class="material-icons right white-text">arrow_upward</i>
+                        </span>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">MENU<i class="material-icons right">close</i></span>
+                        <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                    </div>
+                  </div>
+                </div>
+              <div class="row">
+                <div class="col s12 m4">
+                  <div class="card">
+                    <div class="card-image z-depth-4 waves-effect waves-block waves-light">
+                      <img src="img/dine.jpg" alt="" class="activator">
+                      <span class="card-title activator white-text"
+                            style="color: white; font-family:Helvetica">
+                            DINNER
+                      </span>
+                    </div>
+                    <div class="card-content black">
+                        <span class="card-title activator white-text">MENU
+                            <i class="material-icons right white-text">arrow_upward</i>
+                        </span>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">MENU<i class="material-icons right">close</i></span>
+                        <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </section>
+
+          <br><br>
+
+        <!-- Materialboxed -->
+       <section class="black">
+        <div class="container">
+            <br><br>
+            <h3 class="white-text" style="color: white; font-family:Helvetica">
+                ACTIVITIES
+            </h3>
+            <br>
+            <div class="row">
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-image">
+                          <img src="img/kayak.jpg" class="materialboxed">
+                          <span class="card-title">
+                            <strong>KAYAKING</strong>
+                          </span>
+                          <a class="btn-floating halfway-fab waves-effect waves-light black"><i class="material-icons">add</i></a>
+                        </div>
+                        <div class="card-content">
+                          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-image">
+                          <img src="img/hike.jpg" class="materialboxed">
+                          <span class="card-title">
+                            <strong>HIKING</strong>
+                          </span>
+                          <a class="btn-floating halfway-fab waves-effect waves-light black"><i class="material-icons">add</i></a>
+                        </div>
+                        <div class="card-content">
+                          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-image">
+                          <img src="img/bike.jpg" class="materialboxed">
+                          <span class="card-title">
+                            <strong>BIKING</strong>
+                          </span>
+                          <a class="btn-floating halfway-fab waves-effect waves-light black"><i class="material-icons">add</i></a>
+                        </div>
+                        <div class="card-content">
+                          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br>
+       </section>
+
+
+</body>
+
+
+
+  <!-- Jquery CDN -->
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+  <!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script>
+    $(document).ready(function(){
+        // fixed-action-btn init
+        $('.fixed-action-btn').floatingActionButton({
+        hoverEnabled: true,
+        toolbarEnabled: true
+    });
+        // sidenav init
+        $('.sidenav').sidenav({
+        edge: 'left'
+        
+    });
+        // material-box init
+        $('.materialboxed').materialbox({
+        inDuration: '275',
+        outDuration: '200'
+    });
+        // slider
+        $('.slider').slider({
+        indicators: false,
+        height: 600,
+        interval: 3000
+    });
+        // tabs init
+        $('.tabs').tabs();
+});
+</script>
+
+</html>
